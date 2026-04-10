@@ -1,27 +1,28 @@
 # Steam Top 100 Games: End-to-End Data Engineering Pipeline
 
 ## 🎯 Project Overview
-This project is part of the **Data Engineering Zoomcamp**. It builds a fully automated pipeline to ingest, transform, and visualize data from the Steam ecosystem (via SteamSpy API). The goal is to analyze market trends and rating patterns of top-performing games.
+This project is part of the **Data Engineering Zoomcamp 2026**. It builds a fully automated pipeline to ingest, transform, and visualize data from the Steam ecosystem. The project demonstrates a complete engineering cycle from cloud infrastructure setup to interactive data storytelling.
 
 ## 🏗️ Architecture
 The pipeline follows the Modern Data Stack (MDS) principles:
-- **Infrastructure as Code (IaC):** Terraform managed Google Cloud Platform (GCP) resources.
-- **Orchestration:** Mage.ai handled data ingestion and workflow management.
-- **Data Ingestion:** Used `dlt` (Data Load Tool) to pull raw data into BigQuery (Bronze Layer).
-- **Transformation:** dbt (Data Build Tool) was used to clean and model data into a Silver Layer.
-- **Data Warehouse:** Google BigQuery.
-- **Visualization:** Looker Studio for interactive dashboards.
+* **Cloud:** Google Cloud Platform (GCP)
+* **IaC:** Terraform
+* **Orchestration:** Mage.ai
+* **Ingestion:** `dlt` (Data Load Tool)
+* **Warehouse:** Google BigQuery
+* **Transformation:** `dbt` (Data Build Tool)
+* **Visualization:** Looker Studio
 
 ## 📊 Dashboard Insights
-Check out the live dashboard here: [INSERT_YOUR_LOOKER_STUDIO_LINK_HERE]
+Check out the interactive dashboard: https://lookerstudio.google.com/reporting/aca2e43d-5e26-4317-a63f-8fd143d35b11
 
-![Dashboard Preview](images/your_screenshot_name.png)
+![Dashboard Preview](![alt text](image.png))
 
 ### Key findings:
-- **Valve Dominance:** Analysis shows Valve's consistent lead in high-quality ratings.
-- **Pricing Strategy:** Correlation between game pricing and user satisfaction scores.
+* **Valve Dominance:** Analysis highlights Valve's exceptional quality consistency in the Top 100 list.
+* **Market Trends:** Most top-rated games follow a specific pricing sweet spot around $20.
 
-## 🚀 How to Reproduce
-1. **Infrastructure:** Navigate to `/terraform` and run `terraform init` & `terraform apply`.
-2. **Orchestration:** Launch Mage.ai and run the `steam_data_master_pipeline`.
-3. **Transformation:** The dbt blocks within Mage will automatically trigger the Silver Layer models.
+## 🚀 Setup & Reproduction
+1.  **GCP Setup:** Create a service account with BigQuery and Storage Admin roles.
+2.  **Infrastructure:** Run `terraform init` and `terraform apply` inside the `/terraform` folder.
+3.  **Pipeline:** Start Mage.ai, configure your GCP credentials, and trigger the `steam_data_master` pipeline.
