@@ -1,0 +1,43 @@
+[0m14:47:05.156983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd4060d370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3fb4b3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3fb4b560>]}
+
+
+============================== 14:47:05.164186 | 2a0f588c-cbc9-4fb1-a0b2-2457307bfcfe ==============================
+[0m14:47:05.164186 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:47:05.164775 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'introspect': 'True', 'partial_parse': 'True', 'quiet': 'False', 'invocation_command': 'dbt init steam_transformations', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'printer_width': '80', 'warn_error': 'None', 'write_json': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'profiles_dir': '/home/momen/.dbt', 'log_cache_events': 'False', 'empty': 'None', 'debug': 'False', 'log_format': 'default', 'target_path': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True'}
+[0m14:47:05.197130 [info ] [MainThread]: Creating dbt configuration folder at /home/momen/.dbt
+[0m14:47:05.202111 [debug] [MainThread]: Starter project path: /home/momen/steam_data_project/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:47:05.222766 [info ] [MainThread]: 
+Your new dbt project "steam_transformations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:47:05.223272 [info ] [MainThread]: Setting up your profile.
+[0m14:49:16.087648 [info ] [MainThread]: Profile steam_transformations written to /home/momen/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:49:16.090914 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 133.74008, "process_in_blocks": "274568", "process_kernel_time": 1.142706, "process_mem_max_rss": "221104", "process_out_blocks": "80", "process_user_time": 5.333961}
+[0m14:49:16.092436 [debug] [MainThread]: Command `dbt init` succeeded at 14:49:16.092212 after 133.74 seconds
+[0m14:49:16.093236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd0878d880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd086982c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd08364d40>]}
+[0m14:49:16.094153 [debug] [MainThread]: Flushing usage events
+[0m14:49:17.091577 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:55:32.511546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc25e70f080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc25e059b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc25e7d9af0>]}
+
+
+============================== 14:55:32.518737 | c8dc557a-b521-4f20-a3ef-7588777a43a0 ==============================
+[0m14:55:32.518737 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:55:32.519333 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'cache_selected_only': 'False', 'empty': 'None', 'profiles_dir': '/home/momen/.dbt', 'introspect': 'True', 'version_check': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'quiet': 'False', 'use_colors': 'True', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'target_path': 'None', 'log_path': 'logs', 'printer_width': '80', 'indirect_selection': 'eager', 'no_print': 'None', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'log_format': 'default', 'fail_fast': 'False'}
+[0m14:56:47.075163 [info ] [MainThread]: A project called steam_transformations already exists here.
+[0m14:56:47.079511 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 76.75771, "process_in_blocks": "57112", "process_kernel_time": 0.62338, "process_mem_max_rss": "104336", "process_out_blocks": "32", "process_user_time": 1.683936}
+[0m14:56:47.080136 [debug] [MainThread]: Command `dbt init` succeeded at 14:56:47.080032 after 76.76 seconds
+[0m14:56:47.080519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc26271b3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc25ddc1f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cc25e70f080>]}
+[0m14:56:47.080937 [debug] [MainThread]: Flushing usage events
+[0m14:56:47.919478 [debug] [MainThread]: An error was encountered while trying to flush usage events

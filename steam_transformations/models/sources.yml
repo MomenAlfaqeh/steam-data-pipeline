@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: steam_api
+    database: steam-data-pipeline-492517
+    schema: steam_raw_zone
+    tables:
+      - name: popular_games

@@ -1,0 +1,14 @@
+sources:
+- description: Dataframes Mage upstream blocks
+  loader: mage
+  name: mage_dbt
+  schema: steam_silver_zone
+  tables:
+  - description: Dataframe for block `steam_api_ingestion` of the `steam_data_master_pipeline`
+      mage pipeline.
+    identifier: mage_steam_data_master_pipeline_steam_api_ingestion
+    meta:
+      block_uuid: steam_api_ingestion
+      pipeline_uuid: steam_data_master_pipeline
+    name: steam_data_master_pipeline_steam_api_ingestion
+version: 2
