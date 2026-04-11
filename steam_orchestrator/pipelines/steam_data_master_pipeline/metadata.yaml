@@ -31,7 +31,7 @@ blocks:
   language: sql
   name: dbt/models/games_silver
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: dbt
   upstream_blocks:

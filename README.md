@@ -16,8 +16,6 @@ The pipeline follows the Modern Data Stack (MDS) principles:
 ## 📊 Dashboard Insights
 Check out the interactive dashboard: https://lookerstudio.google.com/reporting/aca2e43d-5e26-4317-a63f-8fd143d35b11
 
-![Dashboard Preview](![alt text](image.png))
-
 ### Key findings:
 * **Valve Dominance:** Analysis highlights Valve's exceptional quality consistency in the Top 100 list.
 * **Market Trends:** Most top-rated games follow a specific pricing sweet spot around $20.
